@@ -116,6 +116,19 @@ class McqQnsViewController: UIViewController {
         btn_B.layer.borderWidth = 2
         btn_C.layer.borderWidth = 2
         btn_D.layer.borderWidth = 2
+        
+        btn_A.clipsToBounds = true
+        btn_B.clipsToBounds = true
+        btn_C.clipsToBounds = true
+        btn_D.clipsToBounds = true
+        btn_Next.clipsToBounds = true
+        
+        btn_A.layer.cornerRadius = 20
+        btn_B.layer.cornerRadius = 20
+        btn_C.layer.cornerRadius = 20
+        btn_D.layer.cornerRadius = 20
+        btn_Next.layer.cornerRadius = 20
+        
         initQuiz()
     }
 
